@@ -1,0 +1,50 @@
+.footer{
+    .container-fluid{
+        padding: 0px 40px;
+    }
+    background-color: #38383B;
+    padding: 20px 0px;
+    h5,h4{
+        color: #fff;
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    p{
+        text-align: left;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    h4{
+        font-weight: 600;
+    }
+    ul{
+        padding-left:0px;
+        
+        li{
+            width: auto;
+            display: block;
+            padding-left:0px;
+            a{
+                color: #fff;
+            }
+        }
+    }
+    .social-icon{
+        ul{
+            li{
+                display: inline-block;
+                padding: 12px;
+            }
+        }
+        svg{
+            font-size: 32px;
+        }
+    }
+    address{
+        font-style: normal;
+       a{
+           color: #fff;
+       }
+    }
+}

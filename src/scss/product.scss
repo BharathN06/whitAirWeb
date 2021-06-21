@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+.container-fluid {
+    padding: 0px 40px;
+}
+
+.product-banner-section {
+    padding-top: 100px;
+
+    h1 {
+        text-align: left;
+        font-size: 82px;
+        font-weight: 600;
+    }
+
+    .abt-project {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 15px;
+
+        span {
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: normal;
+        }
+    }
+}
+
+
+.introduction {
+    padding: 45px 0px;
+
+    .content {
+        p {
+            text-align: left;
+            font-size: 15px;
+            line-height: 24px;
+
+            &:nth-child(1) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .img {
+        text-align: right;
+
+        img {
+            width: 400px;
+            height: 700px;
+            object-fit: cover;
+        }
+    }
+}
+
+.You-never {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .content {
+        h1 {
+            font-family: 'Josefin Sans', sans-serif !important;
+            font-size: 82px;
+            font-weight: 700;
+            color: #607D8B !important;
+            padding-right: 10%;
+            padding-bottom: 45px;
+            text-align: left;
+        }
+    }
+}
+
+.pick-plan {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+    h3 {
+        font-size: 38px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: left;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .plans{
+        padding-top: 80px;
+        padding-bottom: 40px;
+        .bacground-img{
+            width: 90%;
+            background-size: cover;
+            background-position: 100% 100%;
+            background-repeat: no-repeat;
+            height: 600px;
+            position: relative;
+            margin: 0 auto;
+            border-radius: 10px;
+            
+            &::before{
+                content:"";
+                background: rgb(96,125,139);
+                background: linear-gradient(0deg, #607d8b 0%, rgb(163 184 195 / 48%) 100%);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                border-radius: 10px;
+            }
+            h3{
+                color: #fff;
+                font-size: 32px;
+                font-weight: bold;
+                text-align: center;
+                position: relative;
+                padding-top: 25px;
+                padding-bottom: 20px;
+            }
+            ul{
+                list-style-type: disc!important;
+                list-style: disc;
+                padding-left: 20px;
+                li{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    list-style-type: disc!important;
+                    list-style: disc;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+    
+                }
+            }
+        }
+        .first{
+            right: -95px;
+            position: relative;
+            z-index: 99;
+        }
+        .center{
+            margin-top: 100px;
+        }
+        .last{
+                position: relative;
+                z-index: 99;
+                left: -95px;
+        }
+    }
+    
+}
+
+.tab-app-demo {
+    .MuiAppBar-colorPrimary {
+        background-color: #fff;
+        box-shadow: unset;
+    }
+
+    .content {
+        a {
+            span {
+                color: #374140;
+                font-size: 22px;
+                font-weight: bold;
+                font-family: 'Quicksand', sans-serif !important;
+                text-transform: capitalize;
+            }
+
+            &.Mui-selected {
+                color: #0080FF;
+
+                span {
+                    color: #0080FF;
+                }
+            }
+        }
+
+        span.MuiTabs-indicator {
+            background-color: unset;
+        }
+
+        .MuiTabs-flexContainerVertical {
+            span {
+                color: #374140;
+                font-size: 18px;
+
+                font-family: 'Quicksand', sans-serif !important;
+                text-transform: capitalize;
+                display: block;
+                text-align: left;
+            }
+
+            .Mui-selected {
+                span {
+                    color: #0080FF;
+                    font-weight: bold;
+                }
+            }
+
+        }
+    }
+
+
+    .requestrides {
+        .MuiBox-root{
+            padding-left: 0;
+        }
+        .image {
+            img {
+                width: 370px;
+                height: 680px;
+                object-fit: cover;
+                margin-top: -40px;
+            }
+        }
+        .content{
+            a{
+                margin-top: 20px;
+                display: block;
+                cursor: pointer;
+                &:first-child{
+                    margin-top: 0px;
+                }
+                &:hover{
+                    text-decoration: unset;
+                }
+                h3{
+                    font-size: 23px;
+                    text-align: left;
+                    font-weight: bold;
+                    color: #000;
+                }
+                p{
+                    text-align: left;
+                    color: #374140;
+                    margin-top: 15px;
+                }
+            }
+           
+        }
+    }
+
+
+}
+.footer{
+    display: none;
+}
+.demovideo{
+    padding-bottom: 50px;
+}
+.quote{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    button{
+        background-color: #0080FF;
+        padding: 20px;
+        width: 250px;
+        font-size: 18px;
+        color: #fff;
+        text-transform: unset;
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif !important;
+        span{
+            font-family: 'Quicksand', sans-serif !important;
+        }
+        &:hover{
+            background-color: #0080FF;
+        }
+    }
+   
+}
+
+@media only screen and (min-width: 769px) and (max-width:1200px){
+    .pick-plan{
+        .plans{
+            padding-top: 40px;
+            .first{
+                right: 0px;
+            }
+            .center{
+                margin-top: 0px;
+            }
+            .last{
+                left: 0px;  
+                .bacground-img{
+                    margin-bottom: 0px;
+                }   
+            }
+            .bacground-img{
+                width: 95%;
+                margin-bottom: 25px;
+            }
+        } 
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0px 15px !important;
+    }
+    .product-banner-section {
+        h1{
+            font-size: 45px;
+        }
+    }
+    .introduction {
+        padding: 20px 0px;
+        .img {
+            img {
+                width: 100%;
+                height: 400px;
+                margin-top: 20px;
+            }
+        }
+    }
+    .tab-app-demo{
+        .nav-tabpanel-0{
+            .MuiBox-root.MuiBox-root-1111{
+                padding:0px!important;
+            }
+        }
+        .requestrides {
+            .image {
+                img {
+                    width: 250px;
+                    height: 500px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            } 
+        }
+       
+    }
+
+    .You-never {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .content{
+            h1{
+                font-size: 37px;
+                padding-right: 0px;
+                text-align: center;
+            }
+        } 
+    }
+    .demovideo{
+        iframe{
+            height: 350px;
+        }
+    }
+    .pick-plan{
+        h3{
+            font-size: 32px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .plans{
+            padding-top: 40px;
+            .first{
+                right: 0px;
+            }
+            .center{
+                margin-top: 0px;
+            }
+            .last{
+                left: 0px;  
+                .bacground-img{
+                    margin-bottom: 0px;
+                }   
+            }
+            .bacground-img{
+                width: 100%;
+                margin-bottom: 25px;
+                height: 510px;
+                h3{
+                    font-size: 24px;
+                }
+                ul{
+                    li{
+                        font-size: 16px;
+                    }
+                }
+            }
+        } 
+    } 
+    .quote{
+        padding-top: 10px;
+    }
+}
+
